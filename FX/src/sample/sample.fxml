@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/1.8.0_202" fx:controller="sample.Controller">
+
+    <TextArea fx:id="mainTextArea" editable="false" focusTraversable="false" maxHeight="Infinity" maxWidth="Infinity" VBox.vgrow="ALWAYS">
+      <font><Font size="14.0" /></font></TextArea>
+    <HBox>
+        <TextField fx:id="mainTextField" maxWidth="Infinity" onAction="#sendMessage" HBox.hgrow="ALWAYS">
+         <font><Font size="14.0" /></font></TextField>
+        <Button onAction="#sendMessage"><text>Отправить</text><font><Font size="14.0" /></font></Button>
+    </HBox>
+
+</VBox>
