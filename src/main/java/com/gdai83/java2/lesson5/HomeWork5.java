@@ -1,7 +1,7 @@
 package com.gdai83.java2.lesson5;
 
 
-public class MainApp {
+public class HomeWork5 {
     public static void main(String[] args) throws InterruptedException {
 
         calculateTheValue();
